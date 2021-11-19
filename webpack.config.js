@@ -3,7 +3,8 @@ const ASSET_PATH = process.env.ASSET_PATH || '';
 module.exports = () => ({
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: ASSET_PATH
+    publicPath: ASSET_PATH,
+    hashDigestLength: 1
   },
   devServer: {
     allowedHosts: 'all'
