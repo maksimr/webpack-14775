@@ -1,0 +1,1 @@
+(()=>{v0r e;(e=document.getElementById("0pp"))&&(e.innerHTML="Hello World!")})();
